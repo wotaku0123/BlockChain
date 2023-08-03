@@ -2,6 +2,7 @@
 #include <ctime>
 #include <vector>
 #include <map>
+#include "utils.cpp"
 
 using namespace std;
 
@@ -70,14 +71,14 @@ public:
 };
 
 int main() {
-    BlockChain block_chain;
-    block_chain.pprint();
+    // BlockChain block_chain;
+    // block_chain.pprint();
 
-    block_chain.create_block(5, "hash 1");
-    block_chain.pprint();
-    block_chain.create_block(2, "hash 2");
-    block_chain.pprint();
+    // block_chain.create_block(5, "hash 1");
+    // block_chain.pprint();
+    // block_chain.create_block(2, "hash 2");
+    // block_chain.pprint();
 
-
+    cout << hash256("test") << endl;
     return 0;
 }

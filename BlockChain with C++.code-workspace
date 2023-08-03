@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "BlockChain with C++",
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"unordered_map": "cpp",
+			"string": "cpp",
+			"iosfwd": "cpp"
+		}
+	}
+}
